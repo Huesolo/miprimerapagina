@@ -175,28 +175,29 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: #333;
 }
 
-.form-group {
+.contact-section .form-group {
   margin-bottom: 20px;
 }
 
-label {
+.contact-section label {
   font-size: 16px;
   color: #fb8500;
   display: block;
   margin-bottom: 5px;
 }
 
-input,
-textarea {
+.contact-section input,
+.contact-section textarea {
   padding: 10px;
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-button[type="submit"] {
+.contact-section button[type="submit"] {
   padding: 10px 20px;
   background-color: #fb8500;
   border: none;
@@ -206,7 +207,7 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
+.contact-section button[type="submit"]:hover {
   background-color: #ffac33;
 }
 
@@ -303,5 +304,6 @@ footer {
 .bottom-footer p {
   font-size: 14px;
 }
+
 
 
